@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.more.cjy.MainActivity">
+    android:background="@color/white"
+    tools:context="com.more.cjy.MainActivity"
+    android:padding="10dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,12 +15,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:paddingRight="20dp"
+            android:orientation="vertical">
             <Button
                 android:id="@+id/btn_circleBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="circleBar" />
+                android:text="circle_Bar" />
+            <Button
+                android:id="@+id/btn_titleBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title_bar" />
         </LinearLayout>
     </ScrollView>
 
