@@ -89,7 +89,7 @@ public class CirclePercentView extends View {
         paintProgress.setStrokeCap(Paint.Cap.ROUND);
         paintProgress.setStrokeWidth(10);
         paintProgress.setColor(Color.parseColor("#fd6028"));
-        paintProgress.setMaskFilter(new BlurMaskFilter(10, BlurMaskFilter.Blur.SOLID));
+        paintProgress.setMaskFilter(new BlurMaskFilter(3, BlurMaskFilter.Blur.SOLID));
 
         bgPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         bgPaint.setStyle(Paint.Style.STROKE);
