@@ -22,6 +22,14 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name=".Project1Activity"
             android:hardwareAccelerated="false"></activity>
+        <activity android:name=".anim.AnimMainActivity" />
+        <activity android:name=".anim.TranslationActivity" />
+        <activity android:name=".anim.RotationActivity" />
+        <activity android:name=".anim.ScaleActivity" />
+        <activity android:name=".anim.AlphaActivity" />
+        <activity android:name=".anim.MultiActivity" />
+        <activity android:name=".anim.InterpolaterActivity" />
+        <activity android:name=".anim.AnimatorActivity"></activity>
     </application>
 
 </manifest>

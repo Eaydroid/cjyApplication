@@ -5,38 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.more.cjy.MainActivity"
-    android:padding="10dp">
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@mipmap/huaji" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
         <LinearLayout
+            android:id="@+id/root"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
             android:orientation="vertical">
             <Button
-                android:id="@+id/btn_circleBar"
+                android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="circle_Bar" />
+                android:text="view.animate().translationX()"/>
             <Button
-                android:id="@+id/btn_titleBar"
+                android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="title_bar" />
+                android:text="view.animate().translationXBy()"/>
             <Button
-                android:id="@+id/btn_project"
+                android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="project" />
+                android:text="view.animate().translationY()"/>
             <Button
-                android:id="@+id/btn_anim"
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="anim" />
+                android:text="view.animate().translationYBy()"/>
         </LinearLayout>
     </ScrollView>
 

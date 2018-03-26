@@ -6,10 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.more.cjy.anim.AnimMainActivity;
+
 public class MainActivity extends Activity implements View.OnClickListener {
     private Button btn_circleBar;
     private Button btn_titleBar;
     private Button btn_project;
+    private Button btn_anim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_titleBar.setOnClickListener(this);
         btn_project = (Button) findViewById(R.id.btn_project);
         btn_project.setOnClickListener(this);
+        btn_anim = (Button) findViewById(R.id.btn_anim);
+        btn_anim.setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +39,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_project:
                 startActivity(new Intent(MainActivity.this, Project1Activity.class));
+                break;
+            case R.id.btn_anim:
+                startActivity(new Intent(MainActivity.this, AnimMainActivity.class));
                 break;
         }
     }
