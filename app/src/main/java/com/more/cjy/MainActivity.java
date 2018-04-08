@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.more.cjy.anim.AnimMainActivity;
+import com.more.cjy.designpattern.DesignPatternMainActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
     private Button btn_circleBar;

@@ -1,12 +1,18 @@
-package com.more.cjy;
+package com.more.cjy.designpattern;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.more.cjy.R;
+import com.more.cjy.designpattern.singleton.SingletonActivity;
+
 public class DesignPatternMainActivity extends Activity implements View.OnClickListener {
 
+    private Context self;
     private Button btn_singleton, btn_builder, btn_adapter, btn_factory,
             btn_proxy, btn_flyweight, btn_observer, btn_strategy, btn_command,
             btn_prototype, btn_decorate, btn_facade, btn_composite, btn_bridge,
@@ -16,6 +22,8 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_design_pattern_main);
+
+        self = this;
 
         //单例模式
         btn_singleton = (Button) findViewById(R.id.btn_singleton);
@@ -91,6 +99,7 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
         int id = v.getId();
         switch (id) {
             case R.id.btn_singleton:
+                startActivity(new Intent(self, SingletonActivity.class));
                 break;
             case R.id.btn_builder:
                 break;
