@@ -17,54 +17,71 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_design_pattern_main);
 
+        //单例模式
         btn_singleton = (Button) findViewById(R.id.btn_singleton);
         btn_singleton.setOnClickListener(this);
 
+        //建造者模式
         btn_builder = (Button) findViewById(R.id.btn_builder);
         btn_builder.setOnClickListener(this);
 
+        //适配器模式
         btn_adapter = (Button) findViewById(R.id.btn_adapter);
         btn_adapter.setOnClickListener(this);
 
+        //工厂模式
         btn_factory = (Button) findViewById(R.id.btn_factory);
         btn_factory.setOnClickListener(this);
 
+        //代理模式
         btn_proxy = (Button) findViewById(R.id.btn_proxy);
         btn_proxy.setOnClickListener(this);
 
+        //享元模式
         btn_flyweight = (Button) findViewById(R.id.btn_flyweight);
         btn_flyweight.setOnClickListener(this);
 
+        //观察者模式
         btn_observer = (Button) findViewById(R.id.btn_observer);
         btn_observer.setOnClickListener(this);
 
+        //策略模式
         btn_strategy = (Button) findViewById(R.id.btn_strategy);
         btn_strategy.setOnClickListener(this);
 
+        //命令模式
         btn_command = (Button) findViewById(R.id.btn_command);
         btn_command.setOnClickListener(this);
 
+        //原型模式
         btn_prototype = (Button) findViewById(R.id.btn_prototype);
         btn_prototype.setOnClickListener(this);
 
+        //装饰模式
         btn_decorate = (Button) findViewById(R.id.btn_decorate);
         btn_decorate.setOnClickListener(this);
 
+        //外观模式
         btn_facade = (Button) findViewById(R.id.btn_facade);
         btn_facade.setOnClickListener(this);
 
+        //组合模式
         btn_composite = (Button) findViewById(R.id.btn_composite);
         btn_composite.setOnClickListener(this);
 
+        //桥接模式
         btn_bridge = (Button) findViewById(R.id.btn_bridge);
         btn_bridge.setOnClickListener(this);
 
+        //模板模式
         btn_template = (Button) findViewById(R.id.btn_template);
         btn_template.setOnClickListener(this);
 
+        //中介者模式
         btn_mediator = (Button) findViewById(R.id.btn_mediator);
         btn_mediator.setOnClickListener(this);
 
+        //状态模式
         btn_state = (Button) findViewById(R.id.btn_state);
         btn_state.setOnClickListener(this);
     }

@@ -37,6 +37,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="anim" />
+            <Button
+                android:id="@+id/btn_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="design_pattern" />
         </LinearLayout>
     </ScrollView>
 

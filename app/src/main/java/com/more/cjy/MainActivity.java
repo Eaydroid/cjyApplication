@@ -13,6 +13,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button btn_titleBar;
     private Button btn_project;
     private Button btn_anim;
+    private Button btn_pattern;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_project.setOnClickListener(this);
         btn_anim = (Button) findViewById(R.id.btn_anim);
         btn_anim.setOnClickListener(this);
+        btn_pattern = (Button) findViewById(R.id.btn_pattern);
+        btn_pattern.setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +45,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_anim:
                 startActivity(new Intent(MainActivity.this, AnimMainActivity.class));
+                break;
+            case R.id.btn_pattern:
+                startActivity(new Intent(MainActivity.this, DesignPatternMainActivity.class));
                 break;
         }
     }
