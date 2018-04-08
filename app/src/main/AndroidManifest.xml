@@ -32,7 +32,8 @@
         <activity android:name=".anim.InterpolaterActivity" />
         <activity android:name=".anim.AnimatorActivity" />
         <activity android:name=".designpattern.DesignPatternMainActivity" />
-        <activity android:name=".designpattern.singleton.SingletonActivity"></activity>
+        <activity android:name=".designpattern.singleton.SingletonActivity" />
+        <activity android:name=".designpattern.builder.BuilderActivity"></activity>
     </application>
 
 </manifest>

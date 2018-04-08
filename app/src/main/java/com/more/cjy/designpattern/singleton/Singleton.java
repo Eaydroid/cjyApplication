@@ -28,9 +28,4 @@ public class Singleton {
         }
         return instance;
     }
-
-//    @Override
-//    public String toString() {
-//        return "instance";
-//    }
 }

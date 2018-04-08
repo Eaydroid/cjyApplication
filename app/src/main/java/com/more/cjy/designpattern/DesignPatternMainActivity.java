@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.more.cjy.R;
+import com.more.cjy.designpattern.builder.BuilderActivity;
 import com.more.cjy.designpattern.singleton.SingletonActivity;
 
 public class DesignPatternMainActivity extends Activity implements View.OnClickListener {
@@ -102,6 +103,7 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
                 startActivity(new Intent(self, SingletonActivity.class));
                 break;
             case R.id.btn_builder:
+                startActivity(new Intent(self, BuilderActivity.class));
                 break;
             case R.id.btn_adapter:
                 break;
