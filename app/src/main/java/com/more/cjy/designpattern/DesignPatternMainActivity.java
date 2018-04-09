@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.more.cjy.R;
 import com.more.cjy.designpattern.builder.BuilderActivity;
+import com.more.cjy.designpattern.duty.ChainOfResponsibilityActivity;
 import com.more.cjy.designpattern.singleton.SingletonActivity;
 
 public class DesignPatternMainActivity extends Activity implements View.OnClickListener {
@@ -17,7 +18,7 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
     private Button btn_singleton, btn_builder, btn_adapter, btn_factory,
             btn_proxy, btn_flyweight, btn_observer, btn_strategy, btn_command,
             btn_prototype, btn_decorate, btn_facade, btn_composite, btn_bridge,
-            btn_template, btn_mediator, btn_state;
+            btn_template, btn_mediator, btn_state, btn_chain_of_responsibility;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,17 +94,22 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
         //状态模式
         btn_state = (Button) findViewById(R.id.btn_state);
         btn_state.setOnClickListener(this);
+
+        //责任链模式
+        btn_chain_of_responsibility = (Button) findViewById(R.id.btn_chain_of_responsibility);
+        btn_chain_of_responsibility.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         int id = v.getId();
+        Intent intent = new Intent();
         switch (id) {
             case R.id.btn_singleton:
-                startActivity(new Intent(self, SingletonActivity.class));
+                intent.setClass(self, SingletonActivity.class);
                 break;
             case R.id.btn_builder:
-                startActivity(new Intent(self, BuilderActivity.class));
+                intent.setClass(self, BuilderActivity.class);
                 break;
             case R.id.btn_adapter:
                 break;
@@ -135,6 +141,13 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
                 break;
             case R.id.btn_state:
                 break;
+            case R.id.btn_chain_of_responsibility:
+                intent.setClass(self, ChainOfResponsibilityActivity.class);
+                break;
+            default:
+                intent.setClass(self, ChainOfResponsibilityActivity.class);
+                break;
         }
+        startActivity(intent);
     }
 }

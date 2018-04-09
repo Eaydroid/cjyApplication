@@ -33,7 +33,8 @@
         <activity android:name=".anim.AnimatorActivity" />
         <activity android:name=".designpattern.DesignPatternMainActivity" />
         <activity android:name=".designpattern.singleton.SingletonActivity" />
-        <activity android:name=".designpattern.builder.BuilderActivity"></activity>
+        <activity android:name=".designpattern.builder.BuilderActivity" />
+        <activity android:name=".designpattern.duty.ChainOfResponsibilityActivity"></activity>
     </application>
 
 </manifest>

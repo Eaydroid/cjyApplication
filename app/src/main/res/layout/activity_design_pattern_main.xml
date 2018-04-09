@@ -96,5 +96,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="状态模式"/>
+        <Button
+            android:id="@+id/btn_chain_of_responsibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="责任链模式"/>
     </LinearLayout>
 </ScrollView>
