@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.more.cjy.R;
 import com.more.cjy.designpattern.builder.BuilderActivity;
 import com.more.cjy.designpattern.duty.ChainOfResponsibilityActivity;
+import com.more.cjy.designpattern.factory.AbstractFactoryActivity;
 import com.more.cjy.designpattern.singleton.SingletonActivity;
 
 public class DesignPatternMainActivity extends Activity implements View.OnClickListener {
@@ -114,6 +115,7 @@ public class DesignPatternMainActivity extends Activity implements View.OnClickL
             case R.id.btn_adapter:
                 break;
             case R.id.btn_factory:
+                intent.setClass(self, AbstractFactoryActivity.class);
                 break;
             case R.id.btn_proxy:
                 break;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.more.cjy.designpattern.factory.AbstractFactoryActivity">
+    <Button
+        android:id="@+id/btnCreateJetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生产一辆捷达"/>
+    <Button
+        android:id="@+id/btnCreateCarola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生产一辆卡罗拉"/>
+    <Button
+        android:id="@+id/btnCreateMagotan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生产一辆迈腾"/>
+    <Button
+        android:id="@+id/btnCreatePrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生产一辆丰田霸道"/>
+
+</LinearLayout>
