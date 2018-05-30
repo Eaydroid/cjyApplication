@@ -5,7 +5,7 @@ package com.more.cjy.designpattern.singleton;
  * <p>
  * <p>
  * 作者：cjy on 2018/4/8 10:18
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 public class Singleton {
     private static volatile Singleton instance;

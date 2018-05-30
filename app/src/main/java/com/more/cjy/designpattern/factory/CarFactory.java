@@ -7,7 +7,7 @@ import com.more.cjy.designpattern.factory.car.Car;
  * <p>
  * <p>
  * 作者：cjy on 2018/4/16 11:34
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 
 public abstract class CarFactory {

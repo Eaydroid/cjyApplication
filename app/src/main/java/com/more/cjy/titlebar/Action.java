@@ -10,7 +10,7 @@ import android.view.ViewGroup;
  * <p>
  * <p>
  * 作者：cjy on 2018/1/23 13:40
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 public abstract class Action {
     protected static final int DEFAULT_ACTION_TEXT_SIZE = 20;

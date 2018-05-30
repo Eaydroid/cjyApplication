@@ -8,7 +8,7 @@ import android.view.View;
  * <p>
  * <p>
  * 作者：cjy on 2017/10/12 10:52
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 
 public abstract class TabAction extends Action implements MallTabView.OnTabChangeClickListener {

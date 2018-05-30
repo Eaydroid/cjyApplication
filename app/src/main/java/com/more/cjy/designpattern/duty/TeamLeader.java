@@ -9,7 +9,7 @@ import com.more.cjy.utils.MToast;
  * <p>
  * <p>
  * 作者：cjy on 2018/4/9 11:07
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 public class TeamLeader extends Leader {
     @Override

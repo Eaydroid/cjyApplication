@@ -22,7 +22,7 @@ import com.more.cjy.R;
  * <p>
  * <p>
  * 作者：cjy on 2018/2/1 16:23
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 
 public class CirclePercentView extends View {

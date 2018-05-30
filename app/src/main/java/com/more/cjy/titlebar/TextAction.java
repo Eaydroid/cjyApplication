@@ -12,7 +12,7 @@ import android.widget.TextView;
  * <p>
  * <p>
  * 作者：cjy on 2018/1/23 13:43
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 
 public abstract class TextAction extends Action {

@@ -14,11 +14,11 @@ import android.widget.TextView;
 import com.more.cjy.utils.DensityUtil;
 
 /**
- * {新版TitleBarView}
+ * {自定义TitleBarView}
  * <p>
  * <p>
  * 作者：cjy on 2017/9/26 16:29
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 
 public class TitleBarView extends ViewGroup implements View.OnClickListener {

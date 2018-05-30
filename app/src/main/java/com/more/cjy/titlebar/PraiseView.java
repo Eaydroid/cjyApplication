@@ -15,7 +15,7 @@ import com.more.cjy.R;
  * <p>
  * <p>
  * 作者：cjy on 2017/9/22 18:34
- * 邮箱：cuijingyi@miao.cn
+ * 邮箱：303592161@qq.com
  */
 
 public class PraiseView extends RelativeLayout {
