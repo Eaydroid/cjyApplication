@@ -15,6 +15,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button btn_project;
     private Button btn_anim;
     private Button btn_pattern;
+    private Button btn_eventBus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_anim.setOnClickListener(this);
         btn_pattern = (Button) findViewById(R.id.btn_pattern);
         btn_pattern.setOnClickListener(this);
+        btn_eventBus = (Button) findViewById(R.id.btn_eventBus);
+        btn_eventBus.setOnClickListener(this);
     }
 
     @Override
@@ -49,6 +52,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_pattern:
                 startActivity(new Intent(MainActivity.this, DesignPatternMainActivity.class));
+                break;
+            case R.id.btn_eventBus:
+                startActivity(new Intent(MainActivity.this, EventBusMainActivity.class));
                 break;
         }
     }
