@@ -2,8 +2,6 @@ package com.more.cjy;
 
 import android.app.Application;
 
-import com.more.cjy.utils.MToast;
-
 /**
  * {此处写描述信息}
  * <p>
@@ -16,6 +14,5 @@ public class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        MToast.init(this);
     }
 }

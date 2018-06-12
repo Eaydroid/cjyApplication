@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 import com.more.cjy.bean.MessageEvent;
 import com.more.cjy.bean.MessageEvent2;
-import com.more.cjy.utils.MToast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -36,13 +35,11 @@ public class EventBusMainActivity extends Activity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void update(MessageEvent event) {
         tv_result.setText(event.toString());
-        MToast.showToast("更新了数据");
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void update(MessageEvent2 event) {
         tv_result.setText(event.toString());
-        MToast.showToast("更新了数据2");
     }
 
     @Override

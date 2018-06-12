@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.more.cjy.R;
-import com.more.cjy.utils.MToast;
 
 /**
  * @author cjy 2018-04-08
@@ -22,6 +21,5 @@ public class SingletonActivity extends Activity {
     }
 
     public void createInstance(View view) {
-        MToast.showToast("单例：" + Singleton.getInstance());
     }
 }

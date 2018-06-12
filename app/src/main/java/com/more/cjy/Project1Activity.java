@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 
-import com.more.cjy.utils.MToast;
 import com.more.cjy.widget.CirclePercentView;
 
 public class Project1Activity extends Activity {
@@ -100,7 +99,6 @@ public class Project1Activity extends Activity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MToast.showToast("progress = " + circlePercentViews[selectFlag].getProgress());
             }
         });
     }

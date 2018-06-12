@@ -2,7 +2,6 @@ package com.more.cjy.designpattern.duty;
 
 import android.util.Log;
 
-import com.more.cjy.utils.MToast;
 
 /**
  * {技术总监}
@@ -20,6 +19,5 @@ public class CTO extends Leader {
     @Override
     public void handle(int money) {
         Log.d("duty", "CTO审批了报销费用：" + money + "元");
-        MToast.showToast("CTO审批了报销费用：" + money + "元");
     }
 }

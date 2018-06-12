@@ -2,7 +2,6 @@ package com.more.cjy.designpattern.duty;
 
 import android.util.Log;
 
-import com.more.cjy.utils.MToast;
 
 /**
  * {领导的抽象类}
@@ -23,7 +22,6 @@ public abstract class Leader {
                 higherLeader.handleRequest(money);
             } else {
                 Log.d("duty", "报销" + money + "元，没有上级领导能审批这次报销");
-                MToast.showToast("没有领导能审批报销费用：" + money + "元，无情拒绝");
             }
         }
     }
